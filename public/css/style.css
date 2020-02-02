@@ -1,8 +1,66 @@
-#tituloHome {
-    position: relative;
-    left: 317px;
+.flechaVerde {
+	position: relative;
+	top: 100px;
+	left: 60px;
+	height: 0px; width: 0px;
+	border: 50px solid;
+	border-color:
+	rgb(7, 247, 59)
+	rgb(7, 247, 59)
+	transparent
+	transparent;
+	transform: rotate(45deg); 
 }
-#subtituloHome {
-    position: relative;
-    left: 30px;
+
+.flechaVerde:before {
+	content: '';
+	position: absolute;
+    top: -10px; right: -40px;
+	display: block;
+	height: 60px; width: 120px;
+	background-color: rgb(7, 247, 59);
+	transform: 
+		rotate(-45deg) 
+		translate(2px, 1px);
+}
+
+.flechaRoja {
+	position: relative;
+	top: 180px;
+	left: 40px;
+	height: 0px; width: 0px;
+	border: 50px solid;
+	border-color:
+	rgb(236, 4, 4)
+	rgb(236, 4, 4)
+	transparent
+	transparent;
+	transform: rotate(-135deg); 
+}
+
+.flechaRoja:after {
+	content: '';
+	position: absolute;
+    top: -10px; right: -40px;
+	display: block;
+	height: 60px; width: 120px;
+	background-color: rgb(236, 4, 4);
+	transform: 
+		rotate(-45deg) 
+		translate(2px, 1px);
+}
+
+.contenedorTesoreria1 {
+	height: 450px;
+	width: 400px;
+}
+
+.contenedorTesoreria2 {
+	height: 450px;
+	width: 400px;
+}
+
+.iconoBilletes {
+	position: relative;
+	bottom: 50px;
 }

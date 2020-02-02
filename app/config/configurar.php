@@ -1,7 +1,7 @@
 <?php
 
 define('RUTA_APP', dirname(dirname(__FILE__)));
-define('RUTA_URL', 'http://localhost/ControlDeGastos');
+define('RUTA_URL', 'http://localhost');
 define('NOMBRESITIO', 'ControlDeGastos');
 
 define('DB_HOST', 'localhost');

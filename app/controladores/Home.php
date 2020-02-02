@@ -6,8 +6,8 @@ class Home extends Controlador {
     }
 
     public function index () {
-        $movimientos = $this->movimientoModelo->getMovimientos();
-        $this->cargarVista('paginas/Home_view', $movimientos);
+        $movimientos = $this->movimientoModelo->getMovimientos('10');
+        $this->cargarVista('Home_view', $movimientos);
     }
 }
 ?>
